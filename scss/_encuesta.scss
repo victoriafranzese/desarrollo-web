@@ -1,0 +1,14 @@
+.formulario {
+  & > div {
+    margin-bottom: $spacer-xl;
+  }
+
+  h3 {
+    margin-bottom: 12px;
+    color: $color-acento-200;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+}

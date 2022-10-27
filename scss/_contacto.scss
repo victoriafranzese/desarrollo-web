@@ -1,0 +1,41 @@
+.form-contacto {
+  input {
+    margin-bottom: $spacer-sm;
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+  input,
+  textarea {
+    width: 70%;
+  }
+}
+
+i {
+  font-size: 30px;
+  margin-top: $spacer-md;
+  color: $color-100;
+  margin-bottom: $spacer-xs;
+  cursor: pointer;
+  transition: all 150ms ease-in;
+}
+
+.fa-square-envelope:hover {
+  color: $color-gm;
+  transform: translateY(-4px);
+}
+
+.fa-instagram:hover {
+  color: $color-ig;
+  transform: translateY(-4px);
+}
+
+.fa-facebook:hover {
+  color: $color-fb;
+  transform: translateY(-4px);
+}
+
+.fa-whatsapp:hover {
+  color: $color-wpp;
+  transform: translateY(-4px);
+}
