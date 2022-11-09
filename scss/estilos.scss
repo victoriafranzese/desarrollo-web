@@ -84,6 +84,12 @@ header {
   }
 }
 
+.biografia {
+  .text-container {
+    line-height: 30px;
+  }
+}
+
 .links-navegacion {
   list-style: none;
   padding: $spacer-md;

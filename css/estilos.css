@@ -124,6 +124,9 @@ header {
   .biografia img {
     max-width: 500px; }
 
+.biografia .text-container {
+  line-height: 30px; }
+
 .links-navegacion {
   list-style: none;
   padding: 20px; }
@@ -131,7 +134,7 @@ header {
     display: inline;
     margin-right: 15px; }
   .links-navegacion a {
-    color: inherit;
+    color: #ddd;
     text-decoration: none;
     font-weight: 600; }
   .links-navegacion a:hover {
